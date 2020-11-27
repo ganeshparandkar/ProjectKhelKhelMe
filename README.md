@@ -1,2 +1,2 @@
-# KhelKhelMe
-https://ganeshparandkar.github.io/KhelKhelMe/
+# ProjectKhelKhelMe
+https://ganeshparandkar.github.io/ProjectKhelKhelMe/
