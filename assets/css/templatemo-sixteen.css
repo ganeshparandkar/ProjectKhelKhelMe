@@ -88,6 +88,48 @@ a.filled-button:hover {
 	margin-bottom: 15px;
 }
 
+.page-heading {
+	display: flex;
+	align-items: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+.page-heading .text-content {
+	/* position: absolute; */
+	/* top: 50%; */
+	/* left: 20%; */
+	/* transform: translateY(-50%); */
+	text-align: start;
+	width: 100%;
+}
+
+.page-heading .text-content h3 {
+	color: #0cbacf;
+	font-size:40px;
+	/* text-transform: uppercase; */
+	font-weight: 700;
+	/* margin-bottom: 15px; */
+}
+
+.page-heading .text-content h2 {
+	color: #fff;
+	font-size: 62px;
+	/* text-transform: uppercase; */
+	letter-spacing: 5px;
+}
+
+.home-heading {
+	background-image: url(../myimages/home-cover.jpg);
+	background-color: rgb(211, 211, 211);
+    background-blend-mode: multiply;
+}
+/* .home-heading .text-content {
+	margin-top: 100px;
+} */
+
 .products-heading {
 	background-image: url(../images/products-heading.jpg);
 }
@@ -100,12 +142,13 @@ a.filled-button:hover {
 	background-image: url(../images/contact-heading.jpg);
 }
 
-.page-heading {
-	padding: 210px 0px 130px 0px;
+/* .page-heading {
+	padding: 180px 0px 130px 0px;
 	text-align: center;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 700px;
 }
 
 .page-heading .text-content h4 {
@@ -121,7 +164,7 @@ a.filled-button:hover {
 	font-size: 62px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-}
+} */
 
 #preloader {
   overflow: hidden;
@@ -209,7 +252,7 @@ header {
 	z-index: 99999;
 	width: 100%;
 	height: 80px;
-	background-color: #232323;
+	background-color: rgba(35, 35, 35, 0.2);
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
