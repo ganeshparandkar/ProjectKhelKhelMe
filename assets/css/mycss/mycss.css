@@ -1,0 +1,21 @@
+footer {
+    background-color: black;
+    color: #ffffff;
+}
+
+footer p {
+    filter: brightness(8);
+    font-size: 20px;
+}
+
+#MyStory p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#MyStory img {
+    float: right;
+    height: 20em;
+    width: 30em;
+    margin-bottom: 5px;
+}
