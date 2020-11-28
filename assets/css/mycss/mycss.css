@@ -12,7 +12,8 @@ footer p {
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
-    text-justify: inter-word;}
+    text-justify: inter-word;
+}
 
 #MyStory img {
     float: right;
