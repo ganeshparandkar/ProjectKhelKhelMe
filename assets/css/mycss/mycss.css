@@ -53,6 +53,13 @@ footer p {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+}
+
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: none;
