@@ -20,4 +20,15 @@ footer p {
     height: 20em;
     width: 30em;
     margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+    #MyStory img {
+        display: block;
+        /* float: right; */
+        height: 20em;
+        margin: auto;
+        width: 100%;
+    }
 }
