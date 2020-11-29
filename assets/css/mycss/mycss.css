@@ -41,17 +41,14 @@ footer p {
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-    text-decoration: underline;
-    /* background-color: #1e1e1eaa; */
-    color: #0CBACF;
-    background-color: #808080;
-    border-bottom: 1px black solid;
-    font-size: 1.1em;
+    text-decoration: underline !important;
+    color: #0cbacf;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .dropdown-item {
     color: white;
-    /* background-color: #1b1b1bb8; */
-    background-color: #a5acb0;
-    /* margin-top: 4px;     */
+    padding: 10px 20px;
+    margin: 1px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
