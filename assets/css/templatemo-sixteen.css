@@ -130,6 +130,12 @@ a.filled-button:hover {
 	margin-top: 100px;
 } */
 
+.games-heading {
+	background-image: url(../images/myimages/chess-cover.jpg);
+	background-color: rgb(211, 211, 211);
+    background-blend-mode: multiply;
+}
+
 .products-heading {
 	background-image: url(../images/products-heading.jpg);
 }
@@ -559,9 +565,14 @@ header .navbar {
 	margin-bottom: 20px;
 }
 
+.best-features ul {
+	list-style-type: square;
+}
+
 .best-features ul.featured-list li {
 	display: block;
 	margin-bottom: 10px;
+	font-size: 10px;
 }
 
 .best-features p {
@@ -640,6 +651,8 @@ header .navbar {
 
 footer {
 	text-align: center;
+	margin-top: 30px;
+	/* background-color: black; */
 }
 
 footer .inner-content {
