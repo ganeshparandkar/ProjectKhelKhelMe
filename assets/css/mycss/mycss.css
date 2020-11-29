@@ -23,15 +23,7 @@ footer p {
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 640px) {
-    #MyStory img {
-        display: block;
-        /* float: right; */
-        height: 20em;
-        margin: auto;
-        width: 100%;
-    }
-}
+
 
 .dropdown-menu {
     border-radius: 0;
@@ -56,6 +48,7 @@ footer p {
 .navbar .nav-item:hover .dropdown-menu {
     display: block;
 }
+
 .navbar .nav-item .dropdown-menu {
     margin-top: 0;
 }
@@ -72,5 +65,23 @@ footer p {
     }
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
+    }
+}
+
+.dropdown-toggle {
+    margin-top: 0.25em;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: all 0.5s;
+    margin-top: 5px;
+}
+
+@media (max-width: 992px) {
+    .dropdown-toggle{
+        padding: 15px 0px;
+		color: #1e1e1e!important;
     }
 }
