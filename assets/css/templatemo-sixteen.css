@@ -147,6 +147,12 @@ a.filled-button:hover {
 	background-blend-mode: multiply;
 }
 
+.smallevents-heading {
+	background-image: url(../images/myimages/smallevents-cover.jpg);
+	background-color:rgba(8, 8, 8, 0.589);
+	background-blend-mode: multiply;
+}
+
 .products-heading {
 	background-image: url(../images/products-heading.jpg);
 }
@@ -295,7 +301,7 @@ header .navbar {
 	color: #121212!important;
 }
 
-.background-header .navbar-nav a.nav-link {
+.background-header .navbar-nav a.nav-link, .background-header .navbar-nav span.nav-link {
 	color: #1e1e1e!important;
 }
 
