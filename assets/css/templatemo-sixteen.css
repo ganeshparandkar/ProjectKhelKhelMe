@@ -131,6 +131,22 @@ a.filled-button:hover {
 	background-blend-mode: multiply;
 }
 
+.contactheading {
+	/* background-image: url(../css/mycss/contactus.jpg); */
+	background-image: url(../css/mycss/1.jpg);
+	/* background-image: url(assets/css/mycss/contact.css); */
+	background-color: rgb(211, 211, 211);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.contact-heading {
+	background-image: url(../myimages/home-cover.jpg);
+	background-color: rgb(211, 211, 211);
+	background-blend-mode: multiply;
+}
+
 /* .home-heading .text-content {
 	margin-top: 100px;
 } */
@@ -149,7 +165,7 @@ a.filled-button:hover {
 
 .smallevents-heading {
 	background-image: url(../images/myimages/smallevents-cover.jpg);
-	background-color:rgba(8, 8, 8, 0.589);
+	background-color: rgba(8, 8, 8, 0.589);
 	background-blend-mode: multiply;
 }
 

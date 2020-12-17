@@ -1,0 +1,57 @@
+/*---------------------------------------
+   Contact section              
+-----------------------------------------*/
+
+#contact {
+    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contact .contact_des {
+    padding-top: 5rem;
+    padding-right: 2rem;
+}
+
+#contact .contact_detail {
+    background: #ffffff;
+    padding: 5rem 5rem 4rem 5rem;
+}
+
+#contact .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 16px;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+    border-bottom-color: #999;
+}
+
+#contact input {
+    height: 45px;
+}
+
+#contact input[type="submit"] {
+    background: #222;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+    background: #0FBAB9;
+}
+
+#contactHeading {
+    font-size: 50px;
+    filter: brightness(130%);
+}

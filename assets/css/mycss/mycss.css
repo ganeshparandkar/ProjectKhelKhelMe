@@ -89,14 +89,3 @@ footer p {
 		color: #1e1e1e!important;
     }
 }
-
-@media all and (max-width: 573px) {
-    #MyStory img {
-        float: none;
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-        margin-left: 0;   
-    }
-}
