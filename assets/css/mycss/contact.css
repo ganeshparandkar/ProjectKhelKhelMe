@@ -15,7 +15,7 @@
 
 #contact .contact_detail {
     background: #ffffff;
-    padding: 5rem 5rem 4rem 5rem;
+    padding: 5rem 1rem 5rem 1rem;
 }
 
 #contact .form-control {
@@ -54,4 +54,17 @@
 #contactHeading {
     font-size: 50px;
     filter: brightness(130%);
+}
+
+.contact_des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
 }
