@@ -132,8 +132,7 @@ a.filled-button:hover {
 }
 
 .contactheading {
-	/* background-image: url(../css/mycss/contactus.jpg); */
-	background-image: url(../css/mycss/1.jpg);
+	background-image: url(../images/myimages/1.jpg);
 	/* background-image: url(assets/css/mycss/contact.css); */
 	background-color: rgb(139, 139, 139);
 	background-blend-mode: multiply;
@@ -154,6 +153,12 @@ a.filled-button:hover {
 .games-heading {
 	background-image: url(../images/myimages/chess-cover.jpg);
 	background-color: rgb(211, 211, 211);
+	background-blend-mode: multiply;
+}
+
+.gallery-heading {
+	background-image: url(../images/myimages/gallery-cover.jpg);
+	background-color: rgba(8, 8, 8, 0.589);
 	background-blend-mode: multiply;
 }
 
@@ -773,6 +778,8 @@ footer .inner-content p a {
 
 .team-member img {
 	width: 100%;
+	transition: 0.5s all ease-in-out; 
+	height: 245px;
 	overflow: hidden;
 }
 
@@ -811,10 +818,20 @@ footer .inner-content p a {
 	color: #0cbacf;
 }
 
-.team-member:hover .hover-effect {
+/* HYP */
+
+.thumb-container {
+	overflow: hidden;
+}
+
+.thumb-container:hover img{
+	transform: scale(1.5); 
+}
+
+/* .team-member:hover .hover-effect {
 	visibility: visible;
 	opacity: 1;
-}
+} */
 
 .team-member .down-content h4 {
 	font-size: 17px;
