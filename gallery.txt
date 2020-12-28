@@ -117,266 +117,248 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
     </div>
 
-
+    
     <div class="team-members">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Our Gallery</h2>
-                    </div>
+                <div class="section-heading">
+                    <h2>Our Gallery</h2>
+                </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/annual1.jpg" alt="">
+            <div class="row"> 
+              <div class="col-md-4">
+                  <div class="team-member">
+                      <div class="thumb-container">
+                          <img src="assets/images/myimages/Workshops/annual1.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
                             <img src="assets/images/myimages/Workshops/annual2.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-
-            <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
                             <img src="assets/images/myimages/Workshops/annual4.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6">
+            </div>
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/1.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/3.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-            <div class="row">
-
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/2.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/4.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/3.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/5.jpg" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/4.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/7.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/6.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/5.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/7.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/6.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/8.jpg" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/8.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/9.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/9.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/annual3.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/annual3.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/women1.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/women1.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/women2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/women3.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/women2.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/workshop1.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/women3.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/workshop2.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/workshop1.jpg" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/10.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/11.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/workshop3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/13.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/workshop2.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/14.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/10.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/workshop4.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/workshop3.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/15.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/13.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/16.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/14.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/workshop4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row"> 
+                <div class="col-md-4">  
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/17.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/15.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="team-member">
                         <div class="thumb-container">
-                            <img src="assets/images/myimages/Workshops/18.jpg" alt="">
+                        <img src="assets/images/myimages/Workshops/16.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/17.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
+            <div class="row"> 
+                <div class="col-md-4">  
+                    <!-- <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/15.jpg" alt="">
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/18.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- <div class="team-member">
+                        <div class="thumb-container">
+                        <img src="assets/images/myimages/Workshops/17.jpg" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+           
+                
         </div>
     </div>
 
