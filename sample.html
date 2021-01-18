@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/MyJs/email.js"></script>
+
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,21 +38,40 @@ https://templatemo.com/tm-546-sixteen-clothing
 
     <!-- ourcss -->
     <link rel="stylesheet" href="assets/css/mycss/mycss.css">
+    <link rel="stylesheet" href="assets/css/mycss/contact.css">
 
+    <script src="smtp.js"></script>
+    <style>
+        .mysectionblog {
+            background-image: url(assets/images/blogbg.png);
+            background-color: rgb(59, 59, 59);
+            background-blend-mode: multiply;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <h2>
                         <img src="assets/images/myimages/logo.png" alt="Khel Khel Mein" />
                         <!-- <div class="logo">
-                                    <div class="logo-inner">
-                                        <a href="index.html"><img src="assets/myimages/logo.png" alt="Khel Khel Mein" /></a>
-                                    </div>
-                                </div> -->
+								<div class="logo-inner">
+									<a href="index.html"><img src="assets/myimages/logo.png" alt="Khel Khel Mein" /></a>
+								</div>
+							</div> -->
                     </h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -57,15 +80,12 @@ https://templatemo.com/tm-546-sixteen-clothing
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                  <a class="nav-link dropdown-toggle" href="">Courses</a>
-            
-                </li> -->
+
                         <!--  -->
                         <li class="nav-item dropdown">
                             <span class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -93,6 +113,8 @@ https://templatemo.com/tm-546-sixteen-clothing
             </div>
         </nav>
     </header>
+
+    <!-- Page Content -->
     <div class="page-heading main-heading header-text">
         <div class="container">
             <div class="row">
@@ -103,34 +125,38 @@ https://templatemo.com/tm-546-sixteen-clothing
                         <h2 class="wow slideInRight" data-wow-delay="0.2s">Our Blog</h2>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
 
-    <!--  -->
-    <div class="page-heading blog-heading header-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 wow fadeInLeft">
-                    <div class="right-image blog1">
-                        <br><br>
-                        <h1 class="blog-h1">WELCOME</h1>
-                        <hr style="opacity: 0.6;">
-                        <p class="blog-p">
+    <div class="mysectionblog" style="border: rgba(255, 255, 255, 0) 2px solid; padding-bottom: 100px;">
+        <div class="best-features about-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeft">
 
-                            We, at SATTVA CRAFTS are here to fulfil your every kitchen and household product needs! We
-                            handcrafts products with an Indian woody impact for quality and durability!
-                            Handicrafts, traditionally were only seen through a decorative aspect to which we aim to
-                            provide
-                            much more, by adding a glimpse of emotion which speaks to you while you look at them The
-                            inspiration idea was to relive the lost ancient handicrafts.
-                        </p>
+
+                        <div class="left-content">
+                            <div>
+                                <h3 style="color: white;">Welcome</h3>
+                                <hr style="opacity: 0.5;">
+                            </div>
+                            <p style="color: white;">We, at SATTVA CRAFTS are here to fulfil your every kitchen and
+                                household product needs!
+                                We
+                                handcrafts products with an Indian woody impact for quality and durability! <br>
+                                Handicrafts,traditionally were only seen through a decorative aspect to which we aim to
+                                provide much
+                                more, by adding a glimpse of emotion which speaks to you while you look at them The
+                                inspiration idea was to relive the lost ancient handicrafts.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 wow fadeInRight">
-                    <div class="left-content" style="height: 25rem; width:30rem;">
-                        <img src="assets/images/blog1.jpg" style="padding: 20px;" alt="bg">
+                    <div class="col-md-6 wow fadeInRight">
+                        <div class="right-image">
+                            <img src="assets/images/blog1.jpg" alt="">
+                        </div>
 
                     </div>
                 </div>
@@ -139,34 +165,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     </div>
 
 
-
-    <!-- <div class="blog-features" style="padding:10px; background-image: url(blogbg.png);">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 wow fadeInLeft">
-                    <div class="right-image" style="height: 25rem; width:30rem; padding-left: 30px;">
-                        <br><br>
-                        <h3>WELCOME</h3>
-                        <hr style="opacity: 0.6;">
-                        We, at SATTVA CRAFTS are here to fulfil your every kitchen and household product needs! We
-                        handcrafts products with an Indian woody impact for quality and durability!
-                        Handicrafts, traditionally were only seen through a decorative aspect to which we aim to provide
-                        much more, by adding a glimpse of emotion which speaks to you while you look at them The
-                        inspiration idea was to relive the lost ancient handicrafts.
-
-                    </div>
-                </div>
-                <div class="col-md-6 wow fadeInRight">
-                    <div class="left-content" style="height: 25rem; width:30rem;">
-                        <img src="blog1.jpg" style="padding:20px; padding-top:40px;  height: 20rem; width:30rem;" alt="bg">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <footer style="margin: 0px;">
+    <footer style="margin-top: 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -183,6 +182,9 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
     </footer>
 
+
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="assets/js/jquery.js"></script>
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
@@ -191,7 +193,6 @@ https://templatemo.com/tm-546-sixteen-clothing
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/animatecustom.js"></script>
 
-
     <!-- Additional Scripts -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
@@ -199,17 +200,6 @@ https://templatemo.com/tm-546-sixteen-clothing
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
 
-
-    <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-        function clearField(t) {                   //declaring the array outside of the
-            if (!cleared[t.id]) {                      // function makes it static and global
-                cleared[t.id] = 1;  // you could use true and false, but that's more typing
-                t.value = '';         // with more chance of typos
-                t.style.color = '#fff';
-            }
-        }
-    </script>
 
 
 </body>

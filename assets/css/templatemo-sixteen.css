@@ -135,6 +135,9 @@ a.filled-button:hover {
 	background-image: url(../images/blog-heading.jpg);
 	background-color: rgba(122, 122, 122, 0.753);
 	background-size: cover;
+	/* background-image: url(../../images/blogbg.png);
+    background-color: rgba(8, 8, 8, 0.589);
+    background-blend-mode: multiply; */
 }
 
 .contactheading {

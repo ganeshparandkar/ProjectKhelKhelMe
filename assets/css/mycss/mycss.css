@@ -115,11 +115,6 @@ footer p {
     color: white;
 }
 
-.blog-heading {
-    background-image: url(../../images/blogbg.png);
-    background-color: rgba(8, 8, 8, 0.589);
-    background-blend-mode: multiply;
-}
 
 .main-heading {
     background-image: url(../../images/blog-heading.jpg);
@@ -131,4 +126,27 @@ footer p {
     height: 25rem;
     width: 30rem;
     padding-left: 30px;
+}
+
+.imageblog {
+    height: 25rem;
+    width: 30rem;
+}
+
+/* responsive */
+@media all and (max-width:768px) and (min-width:573px) {
+    .blog1 {
+        height: 25rem;
+        width: 30rem;
+        padding-left: 30px;
+    }
+    
+    .imageblog {
+        height: 25rem;
+        width: 30rem;
+    }
+    #blogimg{
+    position: relative;
+    }
+    
 }
