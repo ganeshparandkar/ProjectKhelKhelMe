@@ -23,8 +23,6 @@ footer p {
     margin-left: 10px;
 }
 
-
-
 .dropdown-menu {
     border-radius: 0;
     background-color: #ffffff00;
@@ -84,9 +82,9 @@ footer p {
 }
 
 @media (max-width: 992px) {
-    .dropdown-toggle{
+    .dropdown-toggle {
         padding: 15px 0px;
-		color: #1e1e1e!important;
+        color: #1e1e1e!important;
     }
 }
 
@@ -96,7 +94,7 @@ footer p {
         display: block;
         margin: 0;
         margin-bottom: 30px;
-        width: 100%;  
+        width: 100%;
     }
 }
 
@@ -107,7 +105,30 @@ footer p {
         width: 100%;
         height: auto;
         margin-bottom: 20px;
-        margin-left: 0;   
+        margin-left: 0;
     }
 }
 
+/* sp-blog */
+
+.blog-h1, .blog-p {
+    color: white;
+}
+
+.blog-heading {
+    background-image: url(../../images/blogbg.png);
+    background-color: rgba(8, 8, 8, 0.589);
+    background-blend-mode: multiply;
+}
+
+.main-heading {
+    background-image: url(../../images/blog-heading.jpg);
+    background-color: rgba(8, 8, 8, 0.589);
+    background-blend-mode: multiply;
+}
+
+.blog1 {
+    height: 25rem;
+    width: 30rem;
+    padding-left: 30px;
+}

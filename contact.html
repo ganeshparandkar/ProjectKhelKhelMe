@@ -104,6 +104,9 @@ https://templatemo.com/tm-546-sixteen-clothing
             <li class="nav-item">
               <a class="nav-link active" href="contact.html">Contact Us</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sample.html">sample blog</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -142,7 +145,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 Manek Nagar, Maharashtra Nagar, Borivali West
 Mumbai, Maharashtra 400091 -->
               <!-- <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-              <iframe src="https://maps.google.com/maps?q=Manek+Nagar,+Maharashtra+Nagar+Borivali+West,+Mumbai,+Maharashtra+400091&ie=UTF8&output=embed" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe
+                src="https://maps.google.com/maps?q=Manek+Nagar,+Maharashtra+Nagar+Borivali+West,+Mumbai,+Maharashtra+400091&ie=UTF8&output=embed"
+                width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -154,30 +159,31 @@ Mumbai, Maharashtra 400091 -->
             </div>
             <br>
             <!-- <div class="col-md-6"> -->
-              <div class="left-content">
-                <h5>Email:</h5>
-                <p>
-                  mital@khelkhelmein.in
-                </p>
-                <h5>Phone Number:</h5>
-                <p>
-                  919769663433
-                </p>
-                <h5>Address:</h5>
-                <p>
-                  WING C-1, Manek Nagar, <br>
-                  Maharashtra Nagar, Borivali West, <br>
-                  Mumbai, Maharashtra - 400091. 
-                </p>
-                <ul class="social-icons">
-                  <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-                  <li><a href="mailto:mital@khelkhelmein.in" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                  <li><a href="https://wa.me/919769663433" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                  <li><a href="http://bit.ly/38zx0tW" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="http://bit.ly/3nj0xfE" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://www.linkedin.com/company/khel-khel-mein/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
+            <div class="left-content">
+              <h5>Email:</h5>
+              <p>
+                mital@khelkhelmein.in
+              </p>
+              <h5>Phone Number:</h5>
+              <p>
+                919769663433
+              </p>
+              <h5>Address:</h5>
+              <p>
+                WING C-1, Manek Nagar, <br>
+                Maharashtra Nagar, Borivali West, <br>
+                Mumbai, Maharashtra - 400091.
+              </p>
+              <ul class="social-icons">
+                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                <li><a href="mailto:mital@khelkhelmein.in" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="https://wa.me/919769663433" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="http://bit.ly/38zx0tW" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="http://bit.ly/3nj0xfE" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/khel-khel-mein/?viewAsMember=true" target="_blank"><i
+                      class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
             <!-- </div> -->
             <!-- <form id="contact" action="" method="post" >
               <input name="name" type="text" class="form-control" id="name" placeholder="Name">
@@ -237,13 +243,13 @@ Mumbai, Maharashtra 400091 -->
     //   let message = $("#message").val();
     //   console.log(name, email, message);
 
-      // $.post("contact-form.php", { name: name, email: email, message: message},
-      //   function() {
-      //     // $('#results').html(data);
-      //     // $('#myForm')[0].reset();
-      //     console.log("Success")
-      //   }
-      // );
+    // $.post("contact-form.php", { name: name, email: email, message: message},
+    //   function() {
+    //     // $('#results').html(data);
+    //     // $('#myForm')[0].reset();
+    //     console.log("Success")
+    //   }
+    // );
     // }
 
     $("#submit").click(function (e) {
@@ -252,59 +258,59 @@ Mumbai, Maharashtra 400091 -->
       sendEmail();
     });
 
-function sendEmail() {
-  var email = document.getElementById("email");
-  var msg = document.getElementById("message");
-  var name = document.getElementById("name");
-  var finalMessage;
-  console.log(
-    "email is " +
-      email.value +
-      "<br>name is " +
-      name.value +
-      "<br>message is " +
-      msg.value
-  );
+    function sendEmail() {
+      var email = document.getElementById("email");
+      var msg = document.getElementById("message");
+      var name = document.getElementById("name");
+      var finalMessage;
+      console.log(
+        "email is " +
+        email.value +
+        "<br>name is " +
+        name.value +
+        "<br>message is " +
+        msg.value
+      );
 
-  if (name.value == "") {
-    finalMessage =
-      "Email From : " + email.value + "\n" + "Message : " + msg.value + "\n";
-  } else {
-    finalMessage =
-      "Email From : " +
-      email.value +
-      "\n" +
-      "<br>Name : " +
-      name.value +
-      "\n" +
-      "<br>Message : " +
-      msg.value;
-  }
-  // email validator
+      if (name.value == "") {
+        finalMessage =
+          "Email From : " + email.value + "\n" + "Message : " + msg.value + "\n";
+      } else {
+        finalMessage =
+          "Email From : " +
+          email.value +
+          "\n" +
+          "<br>Name : " +
+          name.value +
+          "\n" +
+          "<br>Message : " +
+          msg.value;
+      }
+      // email validator
 
-  
-  if (email.value == "" || msg.value == "") {
-    alert("Enter the email and the Message!");
-  } else {
-    Email.send({
-      Host: "smtp.gmail.com",
-      Username: "projectsdl33@gmail.com",
-      Password: "blablabla@0000",
-      To: "hyp9820@gmail.com",
-      From: "projectsdl33@gmail.com",
-      Subject: "From Khel Khel Me",
-      Body: finalMessage,
-    })
-    .then((message) => alert("mail sent successfully"))
-    .catch( e => console.log(e) );
-  };
-  
-  
 
-  console.log(finalMessage);
-}
+      if (email.value == "" || msg.value == "") {
+        alert("Enter the email and the Message!");
+      } else {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "projectsdl33@gmail.com",
+          Password: "blablabla@0000",
+          To: "hyp9820@gmail.com",
+          From: "projectsdl33@gmail.com",
+          Subject: "From Khel Khel Me",
+          Body: finalMessage,
+        })
+          .then((message) => alert("mail sent successfully"))
+          .catch(e => console.log(e));
+      };
 
-</script>
+
+
+      console.log(finalMessage);
+    }
+
+  </script>
 
 
 </body>

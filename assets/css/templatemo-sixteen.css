@@ -131,6 +131,12 @@ a.filled-button:hover {
 	background-blend-mode: multiply;
 }
 
+.blog-heading {
+	background-image: url(../images/blog-heading.jpg);
+	background-color: rgba(122, 122, 122, 0.753);
+	background-size: cover;
+}
+
 .contactheading {
 	background-image: url(../images/myimages/1.jpg);
 	/* background-image: url(assets/css/mycss/contact.css); */
@@ -779,8 +785,12 @@ footer .inner-content p a {
 .team-member img {
 	width: 100%;
 	transition: 0.5s all ease-in-out;
+<<<<<<< HEAD
 	/* height: 245px; */
 	height: 345px;
+=======
+	height: 245px;
+>>>>>>> sp
 	overflow: hidden;
 }
 
