@@ -785,12 +785,7 @@ footer .inner-content p a {
 .team-member img {
 	width: 100%;
 	transition: 0.5s all ease-in-out;
-<<<<<<< HEAD
-	/* height: 245px; */
-	height: 345px;
-=======
 	height: 245px;
->>>>>>> sp
 	overflow: hidden;
 }
 
