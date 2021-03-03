@@ -115,19 +115,21 @@ a.filled-button:hover {
 	font-size: 40px;
 	/* text-transform: uppercase; */
 	font-weight: 700;
+	font-family: 'Merriweather', serif;
 	/* margin-bottom: 15px; */
 }
 
 .page-heading .text-content h2 {
 	color: #fff;
 	font-size: 62px;
+	font-family: 'Merriweather', serif;
 	/* text-transform: uppercase; */
 	letter-spacing: 5px;
 }
 
 .home-heading {
 	background-image: url(../images/myimages/chess-cover.jpg);
-	background-color: rgb(211, 211, 211);
+	background-color: rgb(109, 109, 109);
 	background-blend-mode: multiply;
 }
 
@@ -143,7 +145,7 @@ a.filled-button:hover {
 .contactheading {
 	background-image: url(../images/myimages/1.jpg);
 	/* background-image: url(assets/css/mycss/contact.css); */
-	background-color: rgb(139, 139, 139);
+	background-color: rgb(87, 87, 87);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -161,7 +163,7 @@ a.filled-button:hover {
 
 .games-heading {
 	background-image: url(../images/myimages/annual-cover.jpg);
-	background-color: rgb(211, 211, 211);
+	background-color: rgb(138, 138, 138);
 	background-blend-mode: multiply;
 }
 
@@ -173,13 +175,13 @@ a.filled-button:hover {
 
 .workshops-heading {
 	background-image: url(../images/myimages/workshopBg.jpeg);
-	background-color: rgba(8, 8, 8, 0.589);
+	background-color: rgb(54, 54, 54);
 	background-blend-mode: multiply;
 }
 
 .smallevents-heading {
 	background-image: url(../images/myimages/smallevents-cover.jpg);
-	background-color: rgba(8, 8, 8, 0.589);
+	background-color: rgb(54, 54, 54);
 	background-blend-mode: multiply;
 }
 
