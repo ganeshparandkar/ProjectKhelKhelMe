@@ -32,7 +32,7 @@ footer p {
 
 .dropdown-item:focus, .dropdown-item:hover {
     text-decoration: underline !important;
-    color: #0cbacf;
+    color: #f0ff1f;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
