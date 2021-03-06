@@ -144,7 +144,6 @@ a.filled-button:hover {
 
 .contactheading {
 	background-image: url(../images/myimages/1.jpg);
-	/* background-image: url(assets/css/mycss/contact.css); */
 	background-color: rgb(87, 87, 87);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
