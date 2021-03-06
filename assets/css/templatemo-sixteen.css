@@ -128,7 +128,7 @@ a.filled-button:hover {
 }
 
 .home-heading {
-	background-image: url(../images/myimages/story1.JPG);
+	background-image: url(../images/myimages/custom5-cover.JPG);
 	background-color: rgb(109, 109, 109);
 	background-blend-mode: multiply;
 }
@@ -179,8 +179,8 @@ a.filled-button:hover {
 }
 
 .smallevents-heading {
-	background-image: url(../images/myimages/custom6-cover.JPG);
-	background-color: rgb(54, 54, 54);
+	background-image: url(../images/myimages/custom4-cover.JPG);
+	background-color: rgb(105, 105, 105);
 	background-blend-mode: multiply;
 }
 
