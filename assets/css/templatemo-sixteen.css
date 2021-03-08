@@ -408,7 +408,7 @@ header .navbar {
 
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #f0ff1f;
+	color: #0cbacf;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -1143,7 +1143,7 @@ footer .inner-content p a {
 		color: #1e1e1e!important;
 	}
 	.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link {
-		color: #f0ff1f!important;
+		color: #0cbacf!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}
