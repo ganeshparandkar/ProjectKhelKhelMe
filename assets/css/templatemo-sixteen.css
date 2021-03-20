@@ -128,7 +128,7 @@ a.filled-button:hover {
 }
 
 .home-heading {
-	background-image: url(../images/myimages/story1.JPG);
+	background-image: url(../images/myimages/home-cover.jpeg);
 	background-color: rgb(109, 109, 109);
 	background-blend-mode: multiply;
 }
@@ -161,7 +161,7 @@ a.filled-button:hover {
 } */
 
 .games-heading {
-	background-image: url(../images/myimages/custom1-cover.JPG);
+	background-image: url(../images/myimages/story1.JPG);
 	background-color: rgb(138, 138, 138);
 	background-blend-mode: multiply;
 }
@@ -170,6 +170,12 @@ a.filled-button:hover {
 	background-image: url(../images/myimages/custom7-cover.JPG);
 	background-color: rgba(8, 8, 8, 0.589);
 	background-blend-mode: multiply;
+}
+
+@media (max-width: 425px) {
+	.gallery-heading {
+		background-image: url(../images/myimages/custom7-cover-mobile.jpg);
+	}
 }
 
 .workshops-heading {
