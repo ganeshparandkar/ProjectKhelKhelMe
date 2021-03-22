@@ -8,16 +8,28 @@ footer p {
     font-size: 20px;
 }
 
-#MyStory p {
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
+#MyStory {
     text-align: justify;
     text-justify: inter-word;
 }
 
+#MyStory ul {
+    padding: 20px 0;
+}
+
+#MyStory ul li {
+    padding: 5px 0;
+}
+
+#MyStory p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
 #MyStory img {
     float: right;
-    height: 20em;
+    height: auto;
     width: 30em;
     margin-bottom: 5px;
     margin-left: 10px;
