@@ -179,11 +179,14 @@ a.filled-button:hover {
 	.gallery-heading {
 		background-image: url(../images/myimages/custom7-cover-mobile.jpg);
 	}
+	.home-heading {
+		background-image: url(../images/myimages/home-cover-mobile.jpeg);
+	}
 }
 
 .workshops-heading {
-	background-image: url(../images/myimages/custom2-cover.jpg);
-	background-color: rgb(54, 54, 54);
+	background-image: url(../images/myimages/Workshops/workshop3.jpg);
+	background-color: rgb(109, 108, 108);
 	background-blend-mode: multiply;
 }
 
