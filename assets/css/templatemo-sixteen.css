@@ -131,7 +131,7 @@ a.filled-button:hover {
 }
 
 .home-heading {
-	background-image: url(../images/myimages/home-cover.jpeg);
+	background-image: url(../images/myimages/home-cover.jpg);
 	background-color: rgb(109, 109, 109);
 	background-blend-mode: multiply;
 }
@@ -180,7 +180,7 @@ a.filled-button:hover {
 		background-image: url(../images/myimages/custom7-cover-mobile.jpg);
 	}
 	.home-heading {
-		background-image: url(../images/myimages/home-cover-mobile.jpeg);
+		background-image: url(../images/myimages/home-cover-mobile.png);
 	}
 }
 
