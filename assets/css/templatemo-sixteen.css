@@ -153,16 +153,6 @@ a.filled-button:hover {
 	background-size: 100% 100%;
 }
 
-/* .contact-heading {
-	background-image: url(../myimages/home-cover.jpg);
-	background-color: rgb(211, 211, 211);
-	background-blend-mode: multiply;
-} */
-
-/* .home-heading .text-content {
-	margin-top: 100px;
-} */
-
 .games-heading {
 	background-image: url(../images/myimages/story1.JPG);
 	background-color: rgb(138, 138, 138);
@@ -176,6 +166,9 @@ a.filled-button:hover {
 }
 
 @media (max-width: 425px) {
+	.page-heading {
+		height: 500px;
+	}
 	.gallery-heading {
 		background-image: url(../images/myimages/custom7-cover-mobile.jpg);
 	}
@@ -191,18 +184,10 @@ a.filled-button:hover {
 }
 
 .smallevents-heading {
-	background-image: url(../images/myimages/custom4-cover.JPG);
+	background-image: url(../images/myimages/event-cover.jpg);
 	background-color: rgb(105, 105, 105);
 	background-blend-mode: multiply;
 }
-
-/* .products-heading {
-	background-image: url(../images/products-heading.jpg);
-}
-
-.about-heading {
-	background-image: url(../images/about-heading.jpg);
-} */
 
 .contact-heading {
 	background-image: url(../images/contact-heading.jpg);
